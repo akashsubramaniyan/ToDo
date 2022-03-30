@@ -1,0 +1,73 @@
+body{
+    margin: 10px;
+    padding: 0px;
+    background-color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+input{
+    width:450px;
+    padding-left: 10px;
+    border: 1px solid #5f9341;
+    outline: none;
+    height: 25px;
+}
+h1{
+    color: #5f9341;
+}
+button{
+  cursor: pointer; 
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-top: 4px;  
+  width:200px;
+  height: 40px;
+  background-color: green;
+  color: #fff;
+  outline: none;
+  text-align: center;
+  border: none;
+  font-weight: bold;
+  margin: 10px;;
+  transition: 0.5s;
+}
+li{
+    list-style:none;
+    background-color:#fff;
+    text-align: center;
+    width: 500px;
+    height: 50px;
+    margin-top: 0px;
+    border-radius: 4px;
+    box-shadow: 0 0 15px 1px rgba(163,163,163,0.5);
+    
+}
+a{ 
+    
+    color:#5f9341;
+}
+#delete-btn{
+    color: #5f9341;
+   border: 1px solid #5f9341;
+    background-color: #fff;
+    transition: 0.5s;
+}
+#save-tab:hover{
+    background-color: #fff;
+    color:#5f9341;
+    border: 1px solid #5f9341;
+}
+
+#delete-btn:hover{
+    background-color: #5f9341;
+    color:#fff
+}
+#input-btn:hover{
+    background-color: #fff;
+    color: #5f9341;
+    border: 1px solid #5f9341;
+}
